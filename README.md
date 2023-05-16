@@ -12,7 +12,7 @@
 
 ## Motivação
 
-Este app é uma demonstração simples de como consumir uma API usando a biblioteca `fetch` no React Native. Ele exibe informações sobre a condição do céu (e.g.: céu limpo, nublado, parcialmente nublado, chuva, tempestade, neve neblina _etc_.), a temperatura atual em Celsius e o nome da cidade com base nas coordenadas fornecidas. Para isso, é necessário obter uma chave de acesso à API válida que deve ser armazenada como uma variável de ambiente. O código está estruturado para facilitar a compreensão e pode servir como um ponto de partida para projetos mais complexos que exigem a integração com APIs meteorológicas.
+Este app é uma demonstração simples de como consumir uma API usando a biblioteca `fetch` no React Native. Ele exibe informações sobre a condição do céu (e.g.: céu limpo, nublado, parcialmente nublado, chuva, tempestade, neve, neblina _etc_.), a temperatura atual em Celsius e o nome da cidade com base nas coordenadas fornecidas. Para isso, é necessário obter uma chave de acesso à API válida que deve ser armazenada como uma variável de ambiente. O código está estruturado para facilitar a compreensão e pode servir como um ponto de partida para projetos mais complexos que exigem a integração com APIs meteorológicas.
 
 Este foi o quarto repositório de código apresentado no [Curso Superior de TSI](https://www.ifms.edu.br/campi/campus-aquidauana/cursos/graduacao/sistemas-para-internet/sistemas-para-internet) do IFMS como requisito para obtenção da nota parcial das atividades da unidade curricular Programação para Dispositivos Móveis I.
 
