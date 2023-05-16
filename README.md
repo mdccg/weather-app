@@ -2,14 +2,17 @@
 
 ## Sumário
 
-- [tic-tac-toe](#tic-tac-toe)
+- [weather-app](#weather-app)
   - [Sumário](#sumário)
-  - [_To-do list_](#to-do-list)
   - [Motivação](#motivação)
   - [Pilha de tecnologia](#pilha-de-tecnologia)
   - [Como rodar](#como-rodar)
     - [Pré-requisitos](#pré-requisitos)
     - [Passo a passo](#passo-a-passo)
+
+## _To-do list_
+
+- Adicionar `dotenv`
 
 ## Motivação
 
