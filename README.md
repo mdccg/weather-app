@@ -29,8 +29,6 @@ Este foi o quarto repositório de código apresentado no [Curso Superior de TSI]
 | Front-end | [React Native](https://reactnative.dev/) |
 | Base de dados | [OpenWeather](https://openweathermap.org/) |
 
-Os créditos pelas mídias disponibilizadas estão disponíveis [aqui](./assets/README.md).
-
 ## Como rodar
 
 ### Pré-requisitos
