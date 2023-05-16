@@ -10,13 +10,9 @@
     - [Pré-requisitos](#pré-requisitos)
     - [Passo a passo](#passo-a-passo)
 
-## _To-do list_
-
-- Adicionar `dotenv`
-
 ## Motivação
 
-Este app é uma ferramenta fácil de usar para obter informações precisas sobre o clima em qualquer lugar do mundo. Com uma interface intuitiva, você pode buscar a previsão atual e futura para sua localização ou outras cidades que desejar. As informações são atualizadas constantemente para garantir a máxima precisão. Além disso, o app oferece recursos adicionais como mapas de satélite e radar para uma visão mais detalhada das condições meteorológicas em tempo real. Seja para planejar uma viagem ou se manter informado sobre as condições climáticas, Este app é a escolha ideal.
+Este app é uma demonstração simples de como consumir uma API usando a biblioteca `fetch` no React Native. Ele exibe informações sobre a condição do céu (e.g.: céu limpo, nublado, parcialmente nublado, chuva, tempestade, neve neblina _etc_.), a temperatura atual em Celsius e o nome da cidade com base nas coordenadas fornecidas. Para isso, é necessário obter uma chave de acesso à API válida que deve ser armazenada como uma variável de ambiente. O código está estruturado para facilitar a compreensão e pode servir como um ponto de partida para projetos mais complexos que exigem a integração com APIs meteorológicas.
 
 Este foi o quarto repositório de código apresentado no [Curso Superior de TSI](https://www.ifms.edu.br/campi/campus-aquidauana/cursos/graduacao/sistemas-para-internet/sistemas-para-internet) do IFMS como requisito para obtenção da nota parcial das atividades da unidade curricular Programação para Dispositivos Móveis I.
 
@@ -31,6 +27,7 @@ Este foi o quarto repositório de código apresentado no [Curso Superior de TSI]
 | Plataforma | [Expo](https://expo.dev/) | 
 | Linguagem de programação | [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/) |
 | Front-end | [React Native](https://reactnative.dev/) |
+| Base de dados | [OpenWeather](https://openweathermap.org/) |
 
 Os créditos pelas mídias disponibilizadas estão disponíveis [aqui](./assets/README.md).
 
