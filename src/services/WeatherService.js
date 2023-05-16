@@ -1,27 +1,21 @@
-import variablesEnvironment from './../config/variablesEnvironment';
+import { BASE_URL, API_KEY } from '@env';
 
 class WeatherService {
   constructor() {
-    this.baseURL = variablesEnvironment.baseURL;
-    this.apiKey = variablesEnvironment.apiKey;
+    this.baseURL = BASE_URL;
+    this.apiKey = API_KEY;
     this.lang = 'pt_br';
   }
 
   async fetchWeather(latitude, longitude) {
-    let data;
-    
-    await fetch(`${this.baseURL}/weather?lat=${latitude}&lon=${longitude}&lang=${this.lang}&appid=${this.apiKey}`)
-      .then(async (response) => {
-        data = await response.json();
-
-        const { cod } = data;
-
-        if (cod !== 200 && cod !== 304) {
-          console.error(data);
-        }
-      });
-
-    return data;
+    const response = await fetch(`${this.baseURL}/weather?lat=${latitude}&lon=${longitude}&lang=${this.lang}&appid=${this.apiKey}`);
+    if (response.status === 200) {
+      const data = await response.json();
+      return data;
+      
+    } else {
+      throw new Error('Houston, we have a problem.');
+    }
   }
 }
 
