@@ -16,8 +16,8 @@ class App extends Component {
   };
 
   async getWeather(latitude, longitude) {
-    const weatherData = await weatherService.fetchWeather(latitude, longitude);
-    // const weatherData = fakeWeatherData;
+    // const weatherData = await weatherService.fetchWeather(latitude, longitude);
+    const weatherData = fakeWeatherData;
     
     const { 
       main: { temp },

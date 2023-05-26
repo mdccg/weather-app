@@ -6,6 +6,7 @@
   - [Sumário](#sumário)
   - [Motivação](#motivação)
   - [Pilha de tecnologia](#pilha-de-tecnologia)
+  - [Galeria](#galeria)
   - [Como rodar](#como-rodar)
     - [Pré-requisitos](#pré-requisitos)
     - [Passo a passo](#passo-a-passo)
@@ -28,6 +29,10 @@ Este foi o quarto repositório de código apresentado no [Curso Superior de TSI]
 | Linguagem de programação | [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/) |
 | Front-end | [React Native](https://reactnative.dev/) |
 | Base de dados | [OpenWeather](https://openweathermap.org/) |
+
+## Galeria
+
+<img src="./docs/screen.jpg" alt="Tela inicial" width="270px" />
 
 ## Como rodar
 
