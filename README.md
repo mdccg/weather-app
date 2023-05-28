@@ -17,7 +17,7 @@ Este app é uma demonstração simples de como consumir uma API usando a bibliot
 
 Este foi o quarto repositório de código apresentado no [Curso Superior de TSI](https://www.ifms.edu.br/campi/campus-aquidauana/cursos/graduacao/sistemas-para-internet/sistemas-para-internet) do IFMS como requisito para obtenção da nota parcial das atividades da unidade curricular Programação para Dispositivos Móveis I.
 
-| [&larr; Repositório anterior](https://github.com/mdccg/tic-tac-toe) | [Próximo repositório &rarr;](https://github.com/mdccg/holy-mary.git) |
+| [&larr; Repositório anterior](https://github.com/mdccg/tic-tac-toe) | [Próximo repositório &rarr;](https://github.com/mdccg/holy-mary) |
 |-|-|
 
 ## Pilha de tecnologia
